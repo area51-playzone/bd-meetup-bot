@@ -8,6 +8,9 @@ intents:
   - affirm+ask_transport
   - ask_transport
   - deny
+  - confuse
+  - negative+confuse
+  - negative
 
 
 templates:
@@ -33,6 +36,9 @@ templates:
     - "Glad I could help!"
   utter_deny:
     - "Boooooooooo! That's a shame. Let me know if you change your mind."
+  utter_sorry_cant_help:
+    - ":( Sorry then. I have no more suggestions for you!"
+    - "I am afraid I am not much help anymore."
 
 
 actions:
@@ -44,4 +50,5 @@ actions:
   - utter_suggest_transport
   - utter_thanks
   - utter_deny
+  - utter_sorry_cant_help
 

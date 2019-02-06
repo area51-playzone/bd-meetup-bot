@@ -2,27 +2,29 @@
 * greet
     - utter_greet
 	
-
 ## goodbye
 * goodbye
     - utter_goodbye
 	
-
 ## meetup
 * meetup
     - utter_meetup
-	
-	
+		
 ## thanks+goodbye
 * thanks+goodbye
     - utter_goodbye
 
+## confuse
+* confuse
+    - utter_sorry_cant_help
 	
 ## find_meetup_01
 * greet
     - utter_greet
 * meetup
     - utter_meetup
+* confuse
+    - utter_sorry_cant_help    
 * affirm+ask_transport
     - utter_affirm_suggest_transport
 * thanks+goodbye
@@ -35,6 +37,8 @@
     - utter_greet
 * meetup
     - utter_meetup
+* negative+confuse
+    - utter_sorry_cant_help     
 * affirm
     - utter_confirm
 * ask_transport
@@ -49,6 +53,8 @@
     - utter_greet
 * meetup
     - utter_meetup
+* negative
+    - utter_sorry_cant_help     
 * affirm+ask_transport
     - utter_confirm
 	- utter_suggest_transport
